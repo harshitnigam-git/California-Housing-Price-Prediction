@@ -5,7 +5,7 @@ Predicting California housing prices using Machine Learning with a Random Forest
 ### Geographic Price Distribution
 This visualization maps the house prices across California, with red areas indicating higher median house values, which are concentrated near the coast.
 
-![California Housing Prices Map](images/3.image.png)
+![California Housing Prices Map](images/image_3.png)
 
 ## Objective
 To build a regression model that can predict the median house value based on demographic, geographic, and economic features from California housing data.
@@ -15,12 +15,12 @@ To build a regression model that can predict the median house value based on dem
 ### Feature Distributions
 Histograms of numerical features show many are right-skewed (e.g., `total_rooms`, `population`).
 
-![Feature Histograms](images/1.image.png)
+![Feature Histograms](images/image_1.png)
 
 ### Correlation Analysis
 Scatter matrix reveals strongest correlation between `median_income` and `median_house_value`, making it a key predictive feature.
 
-![Feature Correlations](images/4.image.jpg)
+![Feature Correlations](images/image_4.jpg)
 
 ## Features & Preprocessing
 - Preprocesses and scales numerical features, encodes categorical data  
@@ -30,7 +30,7 @@ Scatter matrix reveals strongest correlation between `median_income` and `median
 - Saves model and preprocessing pipeline with joblib 
 
 **Income Category Distribution for Stratified Sampling:**  
-![Income Category Distribution](images/2.image.png)
+![Income Category Distribution](images/image_2.png)
 
 ## Model
 - **Algorithm:** Random Forest Regressor
