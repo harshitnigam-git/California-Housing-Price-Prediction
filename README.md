@@ -20,7 +20,7 @@ Histograms of numerical features show many are right-skewed (e.g., `total_rooms`
 ### Correlation Analysis
 Scatter matrix reveals strongest correlation between `median_income` and `median_house_value`, making it a key predictive feature.
 
-![Feature Correlations](images/image_4.jpg)
+![Feature Correlations](images/image_4.png)
 
 ## Features & Preprocessing
 - Preprocesses and scales numerical features, encodes categorical data  
